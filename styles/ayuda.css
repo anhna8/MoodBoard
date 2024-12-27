@@ -71,12 +71,12 @@ footer {
         max-width: 100%;
         height: auto;
         padding: 0px;
-
         overflow: hidden;
     }
 
     .img:hover {
         transform: scale(150%);
+        max-width: 100%;
     }
 
 }
