@@ -54,7 +54,7 @@ h3 {
 
 .img:hover {
     width: 1000px;
-    height: 300px;
+    height: auto;
     transition: 0.5s;
     object-fit: cover;
 }
@@ -69,14 +69,24 @@ footer {
     .img{
         justify-content: center; 
         max-width: 100%;
+        height: auto;
+        padding: 0px;
+
+        overflow: hidden;
+    }
+
+    .img:hover {
+        transform: scale(150%);
     }
 
 }
 
-@media screen and (max-width: 900px) {
+@media (min-height:0) and  (max-width: 900px) {
     .img{
         justify-content: center; 
         max-width: 100%;
+        padding: 0px;
+        
     }
       
 }
