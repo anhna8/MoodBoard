@@ -155,7 +155,7 @@ input:checked + label .description {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media (min-height:0px)  and (max-width: 900px) {
     #header {
         background-color: rgb(90, 173, 173);
     }

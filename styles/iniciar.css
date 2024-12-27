@@ -119,7 +119,7 @@ body {
 
 }
 
-@media screen and (max-width: 900px) {
+@media (min-height:0px)  and (max-width: 900px) {
     .img{
         justify-content: center; 
         max-width: 100%;
