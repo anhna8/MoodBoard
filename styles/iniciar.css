@@ -111,4 +111,19 @@ body {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 1500px) {
+    .img{
+        justify-content: center; 
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .img{
+        justify-content: center; 
+        max-width: 100%;
+    }
+      
+}
 
